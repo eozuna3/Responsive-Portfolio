@@ -1,0 +1,105 @@
+body{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  background-image: url(../images/dust_scratches.png);
+  min-height: 400px;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: #4aaaa5;
+}
+
+header{
+  background-color: #ffffff;
+  border-color: #cccccc;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: lightgray 3px solid;
+}
+
+header a{
+  color: #cccccc;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+header li{
+  float: right;
+  display: inline;
+  padding: 0 20px 0 20px;
+  border-left: #efefef 2px solid;
+}
+
+header nav{
+  float: right;
+  margin-top: 20px;
+}
+
+#name h1{
+  float: left;
+  background-color:#4aaaa5;
+  color:#ffffff;
+  padding: 20px;
+  margin: 0;
+}
+
+header .current a, a:hover{
+  color: #4aaaa5;
+  font-weight: bold;
+}
+
+/* Section */
+
+section{
+  min-height: 400px;
+}
+
+section h1{
+  border-bottom: lightgray 3px solid;
+  padding-bottom: 20px;
+}
+
+#headshot{
+  width: 250px;
+  height: 250px;
+  float: left;
+  overflow: auto;
+  border-color: #ffffff;
+  margin-right: 20px;
+}
+
+article{
+  width: 50%;
+  height: 50%;
+  background-color: #ffffff;
+}
+
+article p{
+  float: left;
+  overflow: auto;
+}
+
+footer{
+  background-color: darkgray;
+  border-color: #cccccc;
+  padding-top: 30px;
+  min-height: 70px;
+  border-top: #4aaaa5 3px solid;
+  text-align: center;
+}
