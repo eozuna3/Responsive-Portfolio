@@ -70,6 +70,11 @@ section{
   min-height: 400px;
 }
 
+section .container{
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
 section h1{
   border-bottom: lightgray 3px solid;
   padding-bottom: 20px;
@@ -102,4 +107,53 @@ footer{
   min-height: 70px;
   border-top: #4aaaa5 3px solid;
   text-align: center;
+}
+
+input[type=email], input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #0c524d;
+}
+
+.images {
+  position: relative;
+  float:left;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+
+.images img{
+  width: 100%;
+  border: 0 auto;
+}
+
+.centered_bottom{
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  color: #ffffff;
+  background: #4aaaa5;
+  border-bottom: 0;
 }
