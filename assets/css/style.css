@@ -14,7 +14,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 980px;
   margin: 0 auto;
   clear: both;
 }
@@ -56,7 +56,7 @@ h3 {
   position: fixed;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
+  margin: 0px 0 30px;
   overflow: auto;
   color: #ffffff;
   background: #ffffff;
@@ -65,8 +65,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 450px;
-  height: 90px;
+  width: auto;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
@@ -79,7 +78,7 @@ h3 {
 
 nav {
   float: right;
-  margin-top: 25px;
+  margin: 25px;
 }
 
 nav a {
@@ -104,7 +103,7 @@ nav #current, a:hover{
 /* footer */
 
 footer {
-  padding: 30px 0;
+  padding: 30px 0 60px;
   clear: both;
   font-size: 12px;
   color: #ffffff;
@@ -127,12 +126,13 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  clear: both;
 }
 
 .main-section {
   float: left;
   width: 100%;
-  max-width: 960px;
+  max-width: 980px;
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
@@ -144,7 +144,7 @@ h3, h2 {
 .work {
   position: relative;
   float: left;
-  width: 274px;
+  width: 294px;
   margin: 20px 0 25px;
   overflow: auto;
 }
@@ -232,11 +232,6 @@ input[type=submit]:hover {
     font-size: 16px;
     line-height: 30px;
   }
-
-  nav {
-    float: right;
-    margin-top: 20px;
-  }
   
   nav a {
     display: inline-block;
@@ -249,24 +244,18 @@ input[type=submit]:hover {
   }
   
   #logo{
-    width: 400px;
-    height: 70px;
     font-size: 26px;
     font-weight: 600;
     line-height: 70px;
   }
   
   .container{
-    max-width: 90%;
+    width: 100%;
   }
 
   .main-section{
     max-width: 75%;
-    padding: 15px;
-  }
-
-  #main-container {
-    padding-top: 100px;
+    padding: 20px;
   }
 
   h1 {
@@ -289,15 +278,13 @@ input[type=submit]:hover {
     max-width: 100%;
   }
 
-  .container{
-    max-width: 100%;
+  nav{
+    margin: 25px 25px 25px 0px;
   }
 
-  #logo{
-    font-size: 26px;
-    width: 350px;
+  #main-container {
+    min-height: calc(100vh - 70px);
   }
-
 }
 
 /*Max width 640 Media Query */
@@ -305,5 +292,27 @@ input[type=submit]:hover {
 @media screen and (max-width: 640px){
   #masthead{
     position: static;
+  }
+
+  #logo{
+    width: 100%;
+    margin: auto;
+    clear: both;
+  }
+
+  nav{
+    float: none;
+    width: 50%;
+    padding: 90px 0px 20px;
+    margin: auto;
+  }
+
+  #main-container {
+    padding-top: 20px;
+    clear: both;
+  }
+
+  .work{
+    width: 100%;
   }
 }
